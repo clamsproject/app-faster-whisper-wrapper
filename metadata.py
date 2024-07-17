@@ -48,20 +48,20 @@ def appmetadata() -> AppMetadata:
         name='modelType', 
         description='The type of the model to use. Both distil-whsiper and whisper are avaliable 1. distil-whisper-large-v2 2. distil-whisper-large-v3 3. distil-whisper-small.en 4. distil-whisper-medium.en 5. whisper-large-v2 6. whisper-large-v1 7. whisper-medium.en 8. whisper-medium 9. whisper-base.en 10. whisper-base 11. whisper-small.en 12. whisper-small 13. whisper-tiny.en 14. whisper-tiny 15. whisper-large-v3',
         type='string',
-        choices=["distil-large-v2 "
-                    "distil-large-v3 "
-                    "distil-small.en "
-                    "distil-medium.en "
-                    "large-v2 "
-                    "large-v1 "
-                    "medium.en "
-                    "medium "
-                    "base.en "
-                    "base "
-                    "small.en "
-                    "small "
-                    "iny.en "
-                    "tiny "
+        choices=["distil-large-v2"
+                    "distil-large-v3"
+                    "distil-small.en"
+                    "distil-medium.en"
+                    "large-v2"
+                    "large-v1"
+                    "medium.en"
+                    "medium"
+                    "base.en"
+                    "base"
+                    "small.en"
+                    "small"
+                    "tiny.en"
+                    "tiny"
                     "large-v3"],
         default='distil-small.en')
     
